@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    text-align: left;
+    height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    font-variant: small-caps;
+
+}
+
+header h1{
+    font-size: 9vw;
+   font-family: "Passion One";
+   font-weight: 700;
+   padding: 10px;
+}
+
+header a {
+    font-family: "verdana";
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+header h3{
+    font-family: "verdana";
+    font-weight: 300 ;
+    padding-top: 12px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: "Sriracha";
+    font-weight: 300;
+    text-align: left;
+    line-height: 2em;
+    padding: 30px;
+    font-size: 4vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    box-shadow: inset 4px 4px 13px 0px black;
+    background-attachment: fixed;
+}
+
+section.imagem p{
+    background-color: rgba(128, 128, 128, 0.349);
+    display: inline-block;
+    padding: 5px;
+}
+
+section#img1{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img2{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+footer{
+    background-color: black;
+    font-family: "verdana", sans-serif;
+    color: white;
+    text-align: center;
+
+}
